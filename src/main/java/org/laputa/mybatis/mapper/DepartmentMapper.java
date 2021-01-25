@@ -7,7 +7,7 @@ import org.laputa.mybatis.entity.Department;
 public interface DepartmentMapper {
 
     @Select("select * from department where id=#{id}")
-    Department selectDep(Integer id);
+    Department selectDepById(Integer id);
 
     /**
      * 根据部门编号查询部门级联查询该部门下所有员工

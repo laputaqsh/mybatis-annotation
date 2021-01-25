@@ -47,7 +47,7 @@ public interface EmployeeMapper {
             @Result(column = "email", property = "email"),
             @Result(column = "gender", property = "gender"),
             @Result(column = "dep_id", property = "dep",
-                    one = @One(select = "org.laputa.mybatis.mapper.DepartmentMapper.selectDep",
+                    one = @One(select = "org.laputa.mybatis.mapper.DepartmentMapper.selectDepById",
                             fetchType = FetchType.EAGER))
     })
     Employee getEmpWithDep(Integer id);
