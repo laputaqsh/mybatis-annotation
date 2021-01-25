@@ -30,7 +30,7 @@
       <option name="IGNORE_JAVADOC_PERIOD" value="true" />
       <option name="IGNORE_DUPLICATED_THROWS" value="false" />
       <option name="IGNORE_POINT_TO_ITSELF" value="false" />
-      <option name="myAdditionalJavadocTags" value="Insert：代表插入一条数据" />
+      <option name="myAdditionalJavadocTags" value="Insert：代表插入一条数据,Results：代替的是&lt;resultMap&gt;标签，注解中可以使用单个@Result注解，也可以使用@Result集合,Result：代替的是&lt;id&gt;标签和&lt;result&gt;标签,One：一对一配置，代替的是&lt;assocation&gt;标签，是多表查询的关键，在注解中用来指定子查询返回单一对象,Many：一对多配置，代替的是&lt;collection&gt;标签，是多表查询的关键，在注解中用来指定子查询返回对象集合" />
     </inspection_tool>
   </profile>
 </component>
